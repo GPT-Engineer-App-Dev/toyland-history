@@ -1,5 +1,5 @@
 import { Box, Heading, Text, Image, Container, VStack } from "@chakra-ui/react";
-import { FaToy } from "react-icons/fa";
+import { FaGamepad } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -7,7 +7,7 @@ const Home = () => {
       <VStack spacing={8} align="stretch">
         <Box textAlign="center">
           <Heading as="h1" size="2xl" mb={4}>
-            Welcome to the World of Toys <FaToy />
+            Welcome to the World of Toys <FaGamepad />
           </Heading>
           <Text fontSize="xl">Discover the magic and joy of playtime!</Text>
         </Box>
